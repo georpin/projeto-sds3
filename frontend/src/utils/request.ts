@@ -1,1 +1,2 @@
-export const BASE_URL = 'https://app-dsvendas-georpin.herokuapp.com';
+export const BASE_URL = process.env.REACT_APP_URL ?? 'http://localhost:8080';
+//export const BASE_URL = 'http://localhost:8080';
